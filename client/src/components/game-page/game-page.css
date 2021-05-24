@@ -1,0 +1,54 @@
+.gamePage {
+    color: snow;
+    background: #0000007a;
+    padding: 10px;
+}
+
+.gamePage>.genre {
+    display: inline-flex;
+}
+
+.gamePage>.genre>span {
+    margin: 10px;
+}
+
+.gamePage>.description {
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+.gamePage>.screenShots>img {
+    margin: 10px;
+    border: snow 3px solid;
+}
+
+.gamePage>.systemReq {
+    background: #2929298f;
+}
+
+.gamePage>.systemReq p {
+    margin: 0;
+    padding: 0;
+}
+
+.gamePage h5 {
+    border-bottom: 1px solid #929292;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.gamePage button {
+    margin: 10px;
+}
+
+@media (max-width: 980px) {
+    .gamePage img {
+        width: 70%;
+    }
+    .gamePage h5 {
+        width: 100%;
+    }
+    .gamePage iframe {
+        width: 80%;
+    }
+}

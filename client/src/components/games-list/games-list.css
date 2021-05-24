@@ -1,0 +1,26 @@
+.gamesList{
+    color: snow;
+    margin: 10px;
+}
+
+.gamesList .genre>span {
+    margin: 10px;
+}
+.game-card {
+    width: 60%;
+    margin: 0 auto;
+    background: #0808085c;
+    padding: 10px;
+}
+.game-card:not(:last-child){
+    border-bottom: 1px solid #ffffff42;
+}
+
+@media (max-width: 980px) {
+    .gamesList{
+        margin: 0;
+    }
+    .game-card{
+        width: 100%;
+    }
+}
